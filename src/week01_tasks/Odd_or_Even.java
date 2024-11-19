@@ -1,5 +1,7 @@
 package week01_tasks;
 
+import java.util.ArrayList;
+
 public class Odd_or_Even {
 
     /*
@@ -10,6 +12,5 @@ public class Odd_or_Even {
     identify(6)  >   "Even"
 
          */
-
 
 }
