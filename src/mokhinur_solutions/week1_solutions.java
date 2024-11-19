@@ -1,4 +1,4 @@
-package Mokhinur;
+package mokhinur_solutions;
 
 public class week1_solutions {
     /*
