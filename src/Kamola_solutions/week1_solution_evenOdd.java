@@ -1,6 +1,6 @@
 package Kamola_solutions;
 
-public class Kamola_Task_EvenOdd {
+public class week1_solution_evenOdd {
 
     //If statement:
     public static String checkEvenOdd(int num) {
