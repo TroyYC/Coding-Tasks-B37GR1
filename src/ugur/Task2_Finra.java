@@ -1,4 +1,4 @@
-package Ugur;
+package ugur;
 
 public class Task2_Finra {
     public static void main(String[] args) {
