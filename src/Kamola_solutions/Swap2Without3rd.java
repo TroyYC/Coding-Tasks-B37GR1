@@ -12,8 +12,11 @@ public class Swap2Without3rd {
         a = a - b; // a becomes 7
 
         System.out.println("After swapping: a = " + a + ", b = " + b);
-    }
 
 
+
+
+        }
 }
+
 
