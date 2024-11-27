@@ -18,5 +18,3 @@ public class Swap2Without3rd {
 
 
 
-    }
-}
