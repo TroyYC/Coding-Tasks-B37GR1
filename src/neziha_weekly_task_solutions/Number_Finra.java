@@ -1,6 +1,4 @@
-package neziha_week1_task_solutions;
-
-import java.nio.charset.MalformedInputException;
+package neziha_weekly_task_solutions;
 
 public class Number_Finra {
     public static void main(String[] args) {

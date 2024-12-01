@@ -1,4 +1,4 @@
-package neziha_week1_task_solutions;
+package neziha_weekly_task_solutions;
 
 public class Odd_or_Even {
     public static void main(String[] args) {

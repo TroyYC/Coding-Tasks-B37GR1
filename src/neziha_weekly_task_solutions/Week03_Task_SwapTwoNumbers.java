@@ -1,4 +1,4 @@
-package neziha_week1_task_solutions;
+package neziha_weekly_task_solutions;
 
 public class Week03_Task_SwapTwoNumbers {
 
