@@ -9,7 +9,7 @@ public class SwapTwoValues {
             b = a - b; // b now becomes 5 (12 - 7)
             a = a - b; // a now becomes 7 (12 - 5)
 
-            System.out.println("a = " + a); // a = 7
+            System.out.println("a = " + a); // a =7
             System.out.println("b = " + b); // b =5
 
         }
