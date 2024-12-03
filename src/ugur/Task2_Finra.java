@@ -1,28 +1,23 @@
-package Kamola_solutions;
+package ugur;
 
-public class Number_FINRA_DivisibleBy3_5 {
+public class Task2_Finra {
 
-    public static void findFinra(int num) {
+    public static void finra(int num) {
         for (int i = 1; i <= num; i++) {
-
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.println("FINRA");
+                System.out.print("FINRA ");
             } else if (i % 3 == 0) {
-                System.out.println("FIN");
+                System.out.print("FIN ");
             } else if (i % 5 == 0) {
-                System.out.println("RA");
+                System.out.print("RA ");
             } else {
-                System.out.println(i);
+                System.out.print(i + " ");
             }
+
         }
     }
 
     public static void main(String[] args) {
-
-        findFinra(30);
-
-    }
-}
 
 /*
     Write a function which prints out the numbers from 1 to 30 but
@@ -30,3 +25,7 @@ public class Number_FINRA_DivisibleBy3_5 {
     and for numbers which are a multiple of 5, print "RA" instead of the number.
     for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
      */
+        finra(30);
+
+    }
+}
