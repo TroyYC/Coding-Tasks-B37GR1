@@ -11,6 +11,8 @@ public class Odd_or_Even {
     identify(5)  >  "Odd"
     identify(6)  >  "Even"
 
+    Mokhinur is volunteer
+
          */
 
     public  static  String  identify( int  n ) {
