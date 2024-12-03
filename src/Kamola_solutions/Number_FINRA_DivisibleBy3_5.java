@@ -3,7 +3,7 @@ package Kamola_solutions;
 public class Number_FINRA_DivisibleBy3_5 {
 
     public static void findFinra(int num) {
-        for (int i = 1; i <= 30; i++) {
+        for (int i = 1; i <= num; i++) {
 
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FINRA");
