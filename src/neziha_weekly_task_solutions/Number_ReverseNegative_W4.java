@@ -53,7 +53,7 @@ negative number and return it as int
 
 
     public static void main(String[] args) {
-        int number = -576;
+        int number = -456;
         int reversedNumber = reversedNegativeNumber(number);
         System.out.println("Given number : "+ number);
         System.out.println("Reserved Number : " + reversedNumber);
