@@ -22,7 +22,7 @@ public class Finra {
             }else {
                 System.out.println(i);
             }
-            
+
         }
 
     }
