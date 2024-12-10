@@ -1,6 +1,6 @@
 package mokhinur_solutions;
 
-public class week1_solutions {
+public class W1_week1_solutions {
     /*
     Please write a method that can identify given number is odd or even
 
