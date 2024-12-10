@@ -6,7 +6,7 @@ public class Task4_Number_ReverseNegative {
         int number = -456;
         int reversedNumber = reversedNegativeNumber(number);
         System.out.println("Given number : " + number);
-        System.out.println("Reserved Number : " + reversedNumber);
+        System.out.println("Reversed Number : " + reversedNumber);
 
     }
    /*
