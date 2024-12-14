@@ -1,6 +1,6 @@
 package Kamola_solutions;
 
-public class Swap2Without3rd {
+public class W3_Swap2NumsWithout3rd {
     public static void main(String[] args) {
 
         int a = 5, b = 7;
