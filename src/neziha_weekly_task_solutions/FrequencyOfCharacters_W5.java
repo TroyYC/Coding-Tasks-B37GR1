@@ -28,7 +28,7 @@ public class FrequencyOfCharacters_W5 {
         for (int i = 0; i < str.length() ;i++) {
 
             if (i< str.length()-1 && str.charAt(i) == str.charAt(i + 1)) {
-              //  i=str.charAt(i);
+
                 count++;
             } else {
 
