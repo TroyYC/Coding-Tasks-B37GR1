@@ -9,13 +9,15 @@ public class Odd_or_Even {
 
     EX:
     identify(5)  >  "Odd"
-    identify(6)  >   "Even"
+    identify(6)  >  "Even"
+
+    Mokhinur is volunteer
 
          */
 
     public  static  String  identify( int  n ) {
 
-        return  n % 2==0 ? "Even" : "odd" ;
+        return  n % 2==0 ? "Even" : "odd";
 
     }
 
@@ -50,7 +52,7 @@ public class Odd_or_Even {
     //-------------------------------------------------------------------------
 
     public static void main(String[] args) {
-        System.out.println(identify(5));
+        //System.out.println(identify(5));
 
         //identify(5);
 
@@ -58,6 +60,8 @@ public class Odd_or_Even {
 
 
         identify1();
+
+
     }
 
 
