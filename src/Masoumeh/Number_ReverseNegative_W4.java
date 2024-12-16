@@ -1,16 +1,8 @@
 package Masoumeh;
 
 public class Number_ReverseNegative_W4 {
-    public static void main(String[] args) {
-        int input = -456;
-        int output = (input);
-        if (input>=0){
-           return;
-        }
-        System.out.println("output : " + output);
-        System.out.println("input : " + input);
 
-        /*Write a return method that can reverse
+    /*Write a return method that can reverse
 negative number and return it as int
       Ex:
       input => -456
@@ -18,8 +10,29 @@ negative number and return it as int
      */
 
 
+
+    public static int reverseNum(int number){
+        if(number < 10 && number >= 0){
+            return number;
+        }
+
+        int result = 0;
+        while ( number !=0 ) {
+            result = result * 10 + number % 10;
+            number /= 10;
+        }
+
+        return result;
     }
+
+    public static void main(String[] args) {
+
+        System.out.println(reverseNum(-456));
+    }
+
+
 }
+
 
 
 
