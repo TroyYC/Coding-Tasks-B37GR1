@@ -1,6 +1,6 @@
 package mokhinur_solutions;
 
-public class SwapTwoNumbers {
+public class W3_SwapTwoNumbers {
 
     public static void main(String[] args) {
 
