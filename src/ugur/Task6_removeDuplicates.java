@@ -1,33 +1,30 @@
 package ugur;
 
-import java.util.ArrayList;
-
 public class Task6_removeDuplicates {
 
     public static void main(String[] args) {
 
         String str = "AAABBBCCC";
 
-        System.out.println(removeDup(str));
+        System.out.println("str = " + str);
+        System.out.println("removeDuplicate(str) = " + removeDuplicate(str));
     }
 
-    public static String removeDup(String str) {
-        String result = "";
+    public static String removeDuplicate(String str) {
+        String reversed = ""; //
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i <= str.length() - 1; i++) {
             char currentChar = str.charAt(i);
-            //  System.out.println(result.indexOf(currentChar));
+            //  System.out.println(reversed.indexOf(currentChar));
 
-            if (result.indexOf(currentChar) == -1) {
-                result += currentChar;
+            System.out.println("currentChar = " + currentChar);
+            System.out.println("reversed = " + reversed);
+            System.out.println("reversed.indexOf(currentChar) = " + reversed.indexOf(currentChar));
+
+            if (reversed.indexOf(currentChar) == -1) {
+                reversed += currentChar;
             }
-
-//            if (!result.contains(String.valueOf(currentChar))){
-//                System.out.println("String.valueOf(currentChar) = " + String.valueOf(currentChar));
-//                result+=currentChar;
-//            }
-
         }
-        return result;
+        return reversed;
     }
 }
