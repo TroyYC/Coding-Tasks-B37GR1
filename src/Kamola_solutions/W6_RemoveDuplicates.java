@@ -57,7 +57,6 @@ public class W6_RemoveDuplicates {
             }
         }
 
-        // Join the list back into a single string with spaces
         return String.join(" ", resultList);
     }
 
