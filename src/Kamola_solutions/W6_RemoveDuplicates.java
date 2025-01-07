@@ -1,5 +1,4 @@
 package Kamola_solutions;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,8 +55,6 @@ public class W6_RemoveDuplicates {
                 resultList.add(letter);
             }
         }
-
         return String.join(" ", resultList);
     }
-
 }
