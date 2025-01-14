@@ -11,20 +11,20 @@ public class Task6_removeDuplicates {
     }
 
     public static String removeDuplicate(String str) {
-        String reversed = ""; //
+        String removed = ""; //
 
         for (int i = 0; i <= str.length() - 1; i++) {
             char currentChar = str.charAt(i);
-            //  System.out.println(reversed.indexOf(currentChar));
+            //  System.out.println(removed.indexOf(currentChar));
 
-            System.out.println("currentChar = " + currentChar);
-            System.out.println("reversed = " + reversed);
-            System.out.println("reversed.indexOf(currentChar) = " + reversed.indexOf(currentChar));
+//            System.out.println("currentChar = " + currentChar);
+//            System.out.println("removed = " + removed);
+//            System.out.println("removed.indexOf(currentChar) = " + removed.indexOf(currentChar));
 
-            if (reversed.indexOf(currentChar) == -1) {
-                reversed += currentChar;
+            if (removed.indexOf(currentChar) == -1) {
+                removed += currentChar;
             }
         }
-        return reversed;
+        return removed;
     }
 }
