@@ -29,6 +29,8 @@ public class Task5_FrequencyOfCharacters {
             // Append the character and its count to the result
             result.append(currentChar).append(count);
 
+            System.out.println("result = " + result);
+
             // Remove all occurrences of the current character from the string
             str = str.replace(String.valueOf(currentChar), "");
         }
