@@ -1,6 +1,6 @@
 package Kamola_solutions;
 
-public class Number_FINRA_DivisibleBy3_5 {
+public class W2_FINRA_DivisibleBy3_5 {
 
     public static void findFinra(int num) {
         for (int i = 1; i <= num; i++) {
