@@ -12,15 +12,14 @@ public class W11_MoveZerosToEnd {
 
     public static void moveZerosToEnd(int[] arr) {
 
-        int left = 0; // Pointer for non-zero elements
+        int left = 0;
 
         for (int right = 0; right < arr.length; right++) {
             if (arr[right] != 0) {
-                // Swap non-zero element with the left pointer
                 int temp = arr[left];
                 arr[left] = arr[right];
                 arr[right] = temp;
-                left++; // Move the left pointer
+                left++;
             }
         }
     }
