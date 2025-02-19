@@ -12,11 +12,13 @@ public class W7_findUnique {
         String result = "";
 
         for (int i = 0; i < str.length(); i++) {
-            char currentChar = str.charAt(i);
+            char currentChar = str.charAt(i);//A
             // Check if the character appears only once in the string
             if (str.indexOf(currentChar) == str.lastIndexOf(currentChar)) {
+
                 result += currentChar; // Append the unique character to the result string
             }
+            System.out.println("indexOf  "+ str.indexOf(currentChar)+ " == " + str.lastIndexOf(currentChar));
         }
 
         return result;
