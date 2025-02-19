@@ -17,9 +17,9 @@ public class W11_MoveZerosToEnd {
         for (int right = 0; right < arr.length; right++) {
             if (arr[right] != 0) {
                 int temp = arr[left];
-                arr[left] = arr[right];
+                arr[left++] = arr[right];
                 arr[right] = temp;
-                left++;
+
             }
         }
     }

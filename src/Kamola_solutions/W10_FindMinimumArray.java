@@ -25,7 +25,7 @@ public class W10_FindMinimumArray {
     }
 
     public static void main(String[] args) {
-        int [] arr = {1, 5, 8, 3, 2, 11, -1};
+        int [] arr = {1, 5, 0, 8, 3, 2, 11, -1};
 
         System.out.println(minValue(arr));
     }
