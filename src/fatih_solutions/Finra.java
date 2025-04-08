@@ -7,8 +7,6 @@ public class Finra {
         printNumber();
     }
 
-
-
     public static void printNumber(){
 
         for (int i = 1; i <= 30; i++) {
