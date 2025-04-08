@@ -1,8 +1,9 @@
-package Kamola_solutions;
+package ugur;
 
-public class W9_PasswordValidation {
+public class Task9_passwordValidation {
 
-/*
+    public static void main(String[] args) {
+        /*
     Write a function that can verify if a password is valid or not. requirements:
                 1. Password MUST be at least have 6 characters and should not contain space
                 2. PassWord should at least contain one upper case letter
@@ -13,11 +14,9 @@ public class W9_PasswordValidation {
         if all requirements above are met, the method returns true, otherwise returns false
      */
 
-    //Yuliia is volunteer
 
 
 
 
-
-    
+    }
 }

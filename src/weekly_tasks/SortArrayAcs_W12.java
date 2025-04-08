@@ -19,6 +19,17 @@ public class SortArrayAcs_W12 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
         System.out.println(Arrays.toString(arr)); // before sort
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
