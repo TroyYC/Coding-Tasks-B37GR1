@@ -78,8 +78,10 @@ public class SumUpToZero_W13 {
 
     public static void main(String[] args) {
         int N = 5;
-        int[] result = sumUpToZero2(N);
+        int[] result = sumUpToZero(N);
+        int[] result2 = sumUpToZero2(N);
         System.out.println(Arrays.toString(result));
+        System.out.println("Arrays.toString(result2) = " + Arrays.toString(result2));
     }
 
 }

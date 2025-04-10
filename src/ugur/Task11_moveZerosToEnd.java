@@ -1,5 +1,7 @@
 package ugur;
 
+import java.util.Arrays;
+
 public class Task11_moveZerosToEnd {
 
     /*
@@ -10,20 +12,25 @@ public class Task11_moveZerosToEnd {
 
      */
 
+
     public static void moveZerosToTheEnd(int[] array) {
-        // int[] newArray;
+        int[] newArray = new int[array.length];
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
 
-        for (int i = 0; i < array.length - 1; i++) {
+
             if (array[i] == 0) {
-
-
+                count++;
+            } else {
+                newArray[i - count] = array[i];
             }
         }
-
+        System.out.println("Arrays.toString(newArray) = " + Arrays.toString(newArray));
     }
 
     public static void main(String[] args) {
         int[] array = {1, 2, 0, 0, 5, 0, 6, 9};
+        System.out.println("Arrays.toString(array) =    " + Arrays.toString(array));
 
         moveZerosToTheEnd(array);
         // output = [ 1, 2, 5, 6, 9, 0, 0, 0]
