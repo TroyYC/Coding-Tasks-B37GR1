@@ -24,11 +24,10 @@ public class Task10_findMinimumArray {
             if (nums[i] < min) {
                 min = nums[i];
             }
-            System.out.println(min);
+            //System.out.println(min);
         }
 
         return min;
-
     }
 
     public static void main(String[] args) {

@@ -18,6 +18,24 @@ public class Task1_oddOrEven {
 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static void oddOrEven(int num) {
         if (num % 2 == 0) {
             System.out.println(num + " is Even");
